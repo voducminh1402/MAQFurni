@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAQFurni", "MAQFurni.csproj", "{CE38CB23-FD60-4BE3-ACA2-700B24C4BC6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE38CB23-FD60-4BE3-ACA2-700B24C4BC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE38CB23-FD60-4BE3-ACA2-700B24C4BC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE38CB23-FD60-4BE3-ACA2-700B24C4BC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE38CB23-FD60-4BE3-ACA2-700B24C4BC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DD3EEF8-F372-4ED7-AD84-BD8034DAE969}
+	EndGlobalSection
+EndGlobal
