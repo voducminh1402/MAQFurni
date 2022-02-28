@@ -150,7 +150,7 @@ C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net
 C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Product\Views\Product\Create.cshtml.g.cs
 C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Product\Views\Product\Delete.cshtml.g.cs
-C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Product\Views\Product\Details.cshtml.g.cs
 C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Product\Views\Product\Index.cshtml.g.cs
 C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Product\Views\_ViewImports.cshtml.g.cs
 C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Product\Views\_ViewStart.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Product\Views\Product\Details.cshtml.g.cs
