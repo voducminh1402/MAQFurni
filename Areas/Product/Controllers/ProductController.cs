@@ -6,11 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MAQFurni.Models;
-using ProductModel = MAQFurni.Models.Product;
 
-namespace MAQFurni.Areas.Product.Controllers
+namespace MAQFurni.Areas_Product_Controllers
 {
-    [Area("Product")]
     public class ProductController : Controller
     {
         private readonly FurnitureShopContext _context;
@@ -21,8 +19,6 @@ namespace MAQFurni.Areas.Product.Controllers
         }
 
         // GET: Product
-
-        [HttpGet("/admin/product")]
         public async Task<IActionResult> Index()
         {
             var furnitureShopContext = _context.Products.Include(p => p.Available).Include(p => p.Category);
@@ -30,8 +26,6 @@ namespace MAQFurni.Areas.Product.Controllers
         }
 
         // GET: Product/Details/5
-
-        [HttpGet("/admin/product/detail/{id}")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
@@ -52,7 +46,6 @@ namespace MAQFurni.Areas.Product.Controllers
         }
 
         // GET: Product/Create
-        [HttpGet("/admin/product/create")]
         public IActionResult Create()
         {
             ViewData["AvailableId"] = new SelectList(_context.ProductAvailables, "AvailableId", "AvailableName");
@@ -63,21 +56,15 @@ namespace MAQFurni.Areas.Product.Controllers
         // POST: Product/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-
-        [TempData]
-        public string statusMessage {get; set;}
-
-        [HttpPost("/admin/product/create")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductName,ProductImage,ProductPrice,Quantity,Description,AvailableId,CategoryId,CreateDate")] ProductModel product)
+        public async Task<IActionResult> Create([Bind("ProductId,ProductName,ProductImage,ProductPrice,Quantity,Description,AvailableId,CategoryId,CreateDate")] Product product)
         {
             if (ModelState.IsValid)
             {
-                product.CreateDate = DateTime.Now;
-
                 _context.Add(product);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction(nameof(Index));
             }
             ViewData["AvailableId"] = new SelectList(_context.ProductAvailables, "AvailableId", "AvailableName", product.AvailableId);
             ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
@@ -85,14 +72,61 @@ namespace MAQFurni.Areas.Product.Controllers
         }
 
         // GET: Product/Edit/5
-       
+        public async Task<IActionResult> Edit(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            ViewData["AvailableId"] = new SelectList(_context.ProductAvailables, "AvailableId", "AvailableName", product.AvailableId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
+            return View(product);
+        }
 
         // POST: Product/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(string id, [Bind("ProductId,ProductName,ProductImage,ProductPrice,Quantity,Description,AvailableId,CategoryId,CreateDate")] Product product)
+        {
+            if (id != product.ProductId)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(product);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!ProductExists(product.ProductId))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            ViewData["AvailableId"] = new SelectList(_context.ProductAvailables, "AvailableId", "AvailableName", product.AvailableId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
+            return View(product);
+        }
 
         // GET: Product/Delete/5
-        [HttpGet("/admin/product/delete/{id}")]
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
@@ -113,7 +147,7 @@ namespace MAQFurni.Areas.Product.Controllers
         }
 
         // POST: Product/Delete/5
-        [HttpPost("/admin/product/delete/{id}"), ActionName("Delete")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
