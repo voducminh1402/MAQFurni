@@ -156,3 +156,15 @@ C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net
 C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
 C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
 C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Order\Views\Order\Create.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Order\Views\Order\Delete.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Order\Views\Order\Details.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Order\Views\Order\Edit.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Order\Views\Order\Index.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Order\Views\_ViewImports.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Areas\Order\Views\_ViewStart.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Views\Order\Create.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Views\Order\Delete.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Views\Order\Details.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Views\Order\Edit.cshtml.g.cs
+C:\Users\VODUCMINH\Desktop\Code\Learning ASP.NET\MAQFurni\MAQFurni\obj\Debug\net5.0\Razor\Views\Order\Index.cshtml.g.cs

@@ -9,6 +9,7 @@ using MAQFurni.Models;
 
 namespace MAQFurni.Areas_Product_Controllers
 {
+    [Area("Product")]
     public class ProductController : Controller
     {
         private readonly FurnitureShopContext _context;
@@ -19,6 +20,8 @@ namespace MAQFurni.Areas_Product_Controllers
         }
 
         // GET: Product
+
+        [HttpGet("/product/index")]
         public async Task<IActionResult> Index()
         {
             var furnitureShopContext = _context.Products.Include(p => p.Available).Include(p => p.Category);
