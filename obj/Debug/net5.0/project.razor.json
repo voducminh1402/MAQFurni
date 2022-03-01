@@ -15624,6 +15624,26 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Areas\\Order\\Views\\Order\\Delete.cshtml",
+      "TargetPath": "Areas\\Order\\Views\\Order\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Areas\\Order\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Order\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Views\\Order\\Details.cshtml",
+      "TargetPath": "Views\\Order\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Areas\\Order\\Views\\Order\\Edit.cshtml",
+      "TargetPath": "Areas\\Order\\Views\\Order\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15634,8 +15654,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Areas\\Order\\Views\\Order\\Create.cshtml",
+      "TargetPath": "Areas\\Order\\Views\\Order\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Areas\\Order\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Order\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Views\\Order\\Create.cshtml",
+      "TargetPath": "Views\\Order\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15649,8 +15684,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Views\\Order\\Delete.cshtml",
+      "TargetPath": "Views\\Order\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Views\\Product\\Index.cshtml",
       "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Areas\\Order\\Views\\Order\\Details.cshtml",
+      "TargetPath": "Areas\\Order\\Views\\Order\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15671,6 +15716,11 @@
     {
       "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Areas\\Product\\Views\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Product\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Views\\Order\\Edit.cshtml",
+      "TargetPath": "Views\\Order\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15699,8 +15749,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Views\\Order\\Index.cshtml",
+      "TargetPath": "Views\\Order\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Views\\Product\\Delete.cshtml",
       "TargetPath": "Views\\Product\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\VODUCMINH\\Desktop\\Code\\Learning ASP.NET\\MAQFurni\\MAQFurni\\Areas\\Order\\Views\\Order\\Index.cshtml",
+      "TargetPath": "Areas\\Order\\Views\\Order\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
